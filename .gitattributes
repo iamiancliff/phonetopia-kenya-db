@@ -1,0 +1,28 @@
+# Force SQL to be counted
+*.sql linguist-language=SQL
+
+# If you're using Python scripts
+*.py linguist-language=Python
+
+# For HTML/CSS/JS frontend code
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+# For JSON or config files
+*.json linguist-language=JSON
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+# For Markdown docs
+*.md linguist-language=Markdown
+
+# For shell scripts
+*.sh linguist-language=Shell
+
+# Ignore minified/vendor files
+vendor/** linguist-vendored
+node_modules/** linguist-vendored
+*.min.js linguist-vendored
+*.min.css linguist-vendored
+*.min.json linguist-vendored
